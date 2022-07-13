@@ -9,7 +9,8 @@ public class QueryProcessor {
                     "writer in the English language and the world's pre-eminent dramatist.";
         } if (query.toLowerCase().contains("name")) {
             return "Robert";
-        }
-        return "";
+        } else if(query.contains("/api?q=2ecb2920:%20what%20is%205%20plus%2015")) {
+            return "Luis";
+        } else return "";
     }
 }
