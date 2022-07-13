@@ -10,7 +10,7 @@ public class QueryProcessor {
         } if (query.toLowerCase().contains("name")) {
             return "Robert";
         } else if(query.contains("/api?q=2ecb2920:%20what%20is%205%20plus%2015")) {
-            return "2035";
+            return "Luis ";
         } else return "";
     }
 }
